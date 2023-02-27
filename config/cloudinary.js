@@ -7,22 +7,6 @@ cloudinary.config({
   secure: true,
 });
 
-const cloudinaryVideoUpload = (file) => {
-  return new Promise((resolve, reject) => {
-    cloudinary.uploader
-      .upload(file, {
-        resource_type: "video",
-        allowed_formats: ["mkv", "mp4"],
-      })
-      .then((result) => {
-        resolve(result.public_id);
-      })
-      .catch((error) => {
-        reject(error);
-      });
-  });
-};
-
 const cloudinaryImageUpload = (file) => {
   return new Promise((resolve, reject) => {
     cloudinary.uploader
@@ -36,19 +20,9 @@ const cloudinaryImageUpload = (file) => {
   });
 };
 
-const videoTransfrom = (vid, img) =>
-  cloudinary.video(vid, {
-    transformation: [
-      {
-        overlay: img,
-        width: 200,
-        height: 200,
-      },
-    ],
-  });
+const pictureTransform = (img) => cloudinary.image(img, { format: "tiff" });
 
 module.exports = {
-  cloudinaryVideoUpload,
   cloudinaryImageUpload,
-  videoTransfrom,
+  pictureTransform,
 };
