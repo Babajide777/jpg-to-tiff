@@ -1,6 +1,6 @@
 # CLOUDINARY VIDEO OVERLAY TUTORIAL
 
-This tutorial teaches you how to create video overlays using Cloudinary.
+This tutorial teaches you how to convert jpg image format to tiff image format.
 
 ## Authors
 
@@ -8,10 +8,10 @@ This tutorial teaches you how to create video overlays using Cloudinary.
 
 ## API Reference
 
-#### Post details to upload a video and a picture.
+#### Post details to upload a picture.
 
 ```http
-  POST /api/contact
+  POST /upload
 ```
 
 ## Documentation
@@ -64,7 +64,7 @@ If you have any feedback, please reach out to me at j.oyafemi@gmail.com
 Clone the project
 
 ```bash
-  git clone https://github.com/Babajide777/cloudinary-overlay.git
+  git clone https://github.com/Babajide777/jpg-to-tiff
 ```
 
 Go to the project directory
