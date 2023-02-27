@@ -70,7 +70,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd cloudinary-overlay
+  cd jpg-to-tiff
 ```
 
 Install dependencies
