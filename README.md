@@ -1,4 +1,4 @@
-# CLOUDINARY VIDEO OVERLAY TUTORIAL
+# JPG TO TIFF IMAGE FORMAT CONVERTION TUTORIAL
 
 This tutorial teaches you how to convert jpg image format to tiff image format.
 
