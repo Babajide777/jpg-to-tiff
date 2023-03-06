@@ -64,7 +64,7 @@ If you have any feedback, please reach out to me at j.oyafemi@gmail.com
 Clone the project
 
 ```bash
-  git clone https://github.com/Babajide777/jpg-to-tiff
+  git clone https://github.com/Babajide777/jpg-to-tiff.git
 ```
 
 Go to the project directory

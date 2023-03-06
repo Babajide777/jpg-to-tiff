@@ -1,7 +1,7 @@
 {
-  "name": "cloudinary-overlay",
+  "name": "jpg-tiff",
   "version": "1.0.0",
-  "description": "cloudinary video overlay",
+  "description": "cloudinary jpg to tiff",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Babajide777/cloudinary-overlay.git"
+    "url": "git+https://github.com/Babajide777/jpg-to-tiff.git"
   },
   "keywords": [
     "cloudinary",
@@ -20,9 +20,9 @@
   "author": "Oyafemi Babajide",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Babajide777/cloudinary-overlay/issues"
+    "url": "https://github.com/Babajide777/jpg-to-tiff/issues"
   },
-  "homepage": "https://github.com/Babajide777/cloudinary-overlay#readme",
+  "homepage": "hhttps://github.com/Babajide777/jpg-to-tiff#readme",
   "dependencies": {
     "cloudinary": "^1.32.0",
     "dotenv": "^16.0.3",
